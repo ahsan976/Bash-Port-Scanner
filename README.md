@@ -6,5 +6,20 @@ A lightweight Bash script that scans a specified port range using Netcat (nc). E
 
 Give it execute permission two both files:
 chmod +x AdvancedScanner.sh
+
 chmod +x SimpleScanner.sh
+
 two both files
+
+look i have done something so if the file does not run or gives error you have to converte this files by using this command for both two files
+
+sudo apt install dos2unix  # if not already installed
+sudo dos2unix SimpleScanner.sh
+sudo dos2unix AdvacedScanner.sh
+
+Then try running it again:
+
+./AdvancedScanner.sh
+./SimpleScanner.sh
+
+now your script will work.
