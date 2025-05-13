@@ -34,7 +34,7 @@ sudo git clone https://github.com/rootanonymity/Bash-Port-Scanner.git
 
 cd Bash-Port-Scanner
 chmod +x AdvancedScanner.sh
-chmod +x SimpleScanner.sh
+
 
 ⚠️ If you face an error like:
 bad interpreter: /bin/bash^M: No such file or directory
@@ -42,12 +42,13 @@ It means the script has Windows line endings. You'll need to fix it using dos2un
 
 🔧 Convert files to Unix format (Run these commands):
 sudo apt install dos2unix   # Only if not already installed
-sudo dos2unix SimpleScanner.sh
 sudo dos2unix AdvancedScanner.sh
 
 ▶️ Now run the scanners:
 
 ./AdvancedScanner.sh
-./SimpleScanner.sh
 
 ✅ Now your scripts will work without errors!
+
+UPDATE:-
+THE SimpleScanner does not work so use the AdvancedScanner instead of this.
