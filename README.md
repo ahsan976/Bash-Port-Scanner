@@ -1,21 +1,48 @@
-🔍 Advanced Bash Port Scanner
-A fast and parallelized Bash-based port scanner that scans a range of TCP ports, detects open ports with service names, and alerts with a bell sound when an open port is found. Built using Bash and timeout, perfect for quick reconnaissance.
+# 🔐 Bash Port Scanner
 
-🧪 Simple Bash Port Scanner
-A lightweight Bash script that scans a specified port range using Netcat (nc). Easy to use and perfect for beginners learning about basic port scanning and network services.
+A collection of two port scanning tools written in pure Bash — one **advanced** with features like parallel scanning and service detection, and one **simple**, ideal for beginners.
 
-HOW TO RUN THIS TWO FILES:
-1:sudo git clone https://github.com/rootanonymity/Bash-Port-Scanner.git
-2:cd Bash-Port-Scanner
-Give execute permission two both files:
-3:chmod +x AdvancedScanner.sh
-4:chmod +x SimpleScanner.sh
-look i have done something wrong so if the file does not run or gives error you have to converte this files by using this command for both two files
-5:sudo apt install dos2unix  # if not already installed
-6:sudo dos2unix SimpleScanner.sh
-7:sudo dos2unix AdvacedScanner.sh
-Then try running it again:
+---
+
+## 🔍 Advanced Bash Port Scanner
+A fast and parallelized Bash-based port scanner that:
+
+- Scans a custom range of TCP ports
+
+Perfect for quick reconnaissance and learning how Bash handles network tasks.
+
+## 🧪 Simple Bash Port Scanner
+
+A lightweight and beginner-friendly script that:
+
+- Scans a port range using `nc` (Netcat).
+- Prints out only open ports.
+- Minimal and easy to understand — great for first-time learners.
+
+---
+
+## 🚀 How to Run These Two Files
+
+Follow the steps below to run the tools correctly:
+
+```bash
+# Step 1: Clone the repository
+sudo git clone https://github.com/rootanonymity/Bash-Port-Scanner.git
+
+# Step 2: Navigate to the project directory
+cd Bash-Port-Scanner
+chmod +x AdvancedScanner.sh
+chmod +x SimpleScanner.sh
+
+⚠️ If you face an error like:
+bad interpreter: /bin/bash^M: No such file or directory
+It means the script has Windows line endings. You'll need to fix it using dos2unix.
+
+🔧 Convert files to Unix format (Run these commands):
+sudo apt install dos2unix   # Only if not already installed
+sudo dos2unix SimpleScanner.sh
+sudo dos2unix AdvancedScanner.sh
+▶️ Now run the scanners:
 ./AdvancedScanner.sh
 ./SimpleScanner.sh
-
-now your script will work.
+✅ Now your scripts will work without errors!
