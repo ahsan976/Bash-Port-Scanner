@@ -11,7 +11,7 @@ chmod +x SimpleScanner.sh
 
 two both files
 
-look i have done something so if the file does not run or gives error you have to converte this files by using this command for both two files
+look i have done something wrong so if the file does not run or gives error you have to converte this files by using this command for both two files
 
 sudo apt install dos2unix  # if not already installed
 sudo dos2unix SimpleScanner.sh
